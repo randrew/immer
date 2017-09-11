@@ -24,6 +24,7 @@ stdenv.mkDerivation rec {
     benchmarks.steady
     benchmarks.chunkedseq
     benchmarks.immutable_cpp
+    benchmarks.hash_trie
     docs.sphinx_arximboldi
     docs.breathe_arximboldi
     docs.recommonmark
